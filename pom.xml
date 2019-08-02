@@ -4,6 +4,7 @@
   <artifactId>DSRepo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+
   
   <dependencies>
 		<dependency>
@@ -21,7 +22,7 @@
 	</dependencies>
   
   <build>
-  
+  <sourceDirectory>src</sourceDirectory>
       <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
